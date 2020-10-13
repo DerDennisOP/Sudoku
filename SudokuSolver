@@ -72,8 +72,6 @@ for n in range(10000):
                         res[sod[arrc2[ix]]-1] = 1
                     if sod[arrc1[ix]] != 0:
                         res[sod[arrc1[ix]]-1] = 1
-                    if sod:
-                        pass
                 if sum(res) == 8:
                     sod[x] = res.index(0)+1
                     changes = True
